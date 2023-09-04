@@ -9,8 +9,24 @@
 <body>
     <div class="container">
         <h1 class="preview">Hello</h1>
-        <button id="stopBtn">Stop</button>
+        <button id="stopBtn" type="button" >Stop</button>
+    </div>
+    <div class="validation">
+        <form action="">
+            <div class="email">
+                <label for="email">email</label>
+                <input type="text" id="email">
+                <p class="error error-email"></p>
+            </div>
+            <div class="password">
+                <label for="password">password</label>
+                <input type="text" id="password">
+                <p class="error error-password"></p>
+            </div>
+            <button id="submit-btn" type="button" >submit</button>
+        </form>
     </div>
     <script src="./index.js"></script>
+    <script src="./validation.js"></script>
 </body>
 </html>
